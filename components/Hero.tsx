@@ -42,9 +42,6 @@ const Hero = () => {
 
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
-          <p className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
-            Dynamic Web Magic with Next.js
-          </p>
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
@@ -57,8 +54,8 @@ const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Salut! Je suis Yvan, Ingenieur Logiciel passionné
-            d&apos;intelligence artificielle
+            Salut! Je suis Yvan Landry, Ingenieur Logiciel passionné
+            de nouvelles technologies.
           </p>
 
           <a href="#about">
