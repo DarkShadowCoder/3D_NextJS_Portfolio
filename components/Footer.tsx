@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
       <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
-          Copyright © 2024 Yvan Hajdin
+          Copyright © 2024 Yvan Landry
         </p>
 
         <div className="flex items-center gap-6 md:gap-3">
@@ -43,7 +43,9 @@ const Footer = () => {
               key={info.id}
               className="saturate-180 bg-black-200 border-black-300 flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border bg-opacity-75 backdrop-blur-lg backdrop-filter"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              <a href={info.link}>
+                <img src={info.img} alt="icons" width={20} height={20} />
+              </a>
             </div>
           ))}
         </div>
