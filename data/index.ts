@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently creating 30 Mobile apps within 30 Days",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,15 +75,15 @@ export const projects = [
   {
     id: 1,
     title: "AI-based Object Recognition Mobile App",
-    des: "",
+    des: "Complete mobile app that integrated AI-based algorithms to detect and recognize object in real time throught phone camera.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "GeoQuerry - Human management & tracking ",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "GeoQuery - Human management & tracking ",
+    des: "Simplify your teamwork management using GeoQuery to easily program your agenda and track your team during workshop.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
@@ -97,13 +99,37 @@ export const projects = [
   {
     id: 4,
     title: "Microservice for Ecommerce Website ",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Full-Stack ecommerce website build with 2 programming languages with microservices architecture to ensure isolation and reliability.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
   {
     id: 5,
+    title: "AI-based Movie recommendation website",
+    des: "Full-Stack AI-based movie recommendation website.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 6,
+    title: "Curriculum Vitae Analysis and recommendaion system",
+    des: "Full-Stack AI-based CV analysis and recommendation app that facilitate decision making purposes. ",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 7,
+    title: "Sentiment Analysis Deep Learning Model",
+    des: "Deep learning Model for sentiment analysis build with python that can be integrated in multiple platforms.",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 8,
     title: "30 Days - 30 Apps Challenge",
     des: "A collection of 30 mobile Apps created every day during 30 days",
     img: "/p4.svg",
@@ -116,79 +142,73 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Yvan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yvan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yvan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Abdel Diakite",
+    title: "CEO Clever's startup",
   },
   {
     quote:
       "Collaborating with Yvan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yvan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yvan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "ANGOS GABAIN",
+    title: "CEO of KHORFUS",
   },
   {
     quote:
       "Collaborating with Yvan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yvan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yvan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Abdel Diakite",
+    title: "CEO Clever's startup",
   },
   {
     quote:
       "Collaborating with Yvan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yvan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yvan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "ANGOS GABAIN",
+    title: "CEO of KHORFUS",
   },
   {
     quote:
       "Collaborating with Yvan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Yvan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Yvan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Abdel Diakite",
+    title: "CEO Clever's startup",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "SyndaTech SARL",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "BIG DATA CENTER SARLU",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "SKYNESYS",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "KHORFUS",
     img: "/s.svg",
     nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "FullStack Engineer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -202,7 +222,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Lead FullStack Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -213,13 +233,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/DarkShadowCoder"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: ""
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/yvan-landry-mbohou-mounpou-51aa1a2bb"
   },
 ];
