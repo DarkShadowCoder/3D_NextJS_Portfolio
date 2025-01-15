@@ -515,9 +515,6 @@ export default config;
 </details>
 
 
-<details>
-<summary><code>Linear Gradient</code></summary>
-
 ```js
 style={{
         //   add these two
