@@ -200,15 +200,6 @@ export const projects = [
 ];
 
 
-export const companies = [
-
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-
 
 export const workExperience = [
   {
