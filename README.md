@@ -200,17 +200,6 @@ export const projects = [
 ];
 
 
-export const workExperience = [
-
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
-
 export const socialMedia = [
   {
     id: 1,
