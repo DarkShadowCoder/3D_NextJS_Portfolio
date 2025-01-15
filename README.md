@@ -201,12 +201,7 @@ export const projects = [
 
 
 export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
+  
   {
     id: 2,
     name: "appwrite",
