@@ -200,13 +200,7 @@ export const projects = [
 ];
 
 
-export const socialMedia = [
 
-  {
-    id: 3,
-    img: "/link.svg",
-  },
-];
 ```
 
 </details>
