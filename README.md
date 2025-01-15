@@ -512,11 +512,6 @@ export default config;
 }
 ```
 
-</details>
-
-
-```
-</details>
 
 
 
