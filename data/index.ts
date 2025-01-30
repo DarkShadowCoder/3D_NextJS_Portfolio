@@ -100,25 +100,25 @@ export const projects = [
     id: 4,
     title: "Microservice for Ecommerce Website ",
     des: "Full-Stack ecommerce website build with 2 programming languages with microservices architecture to ensure isolation and reliability.",
-    img: "/p4.svg",
+    img: "/p1.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/DarkShadowCoder/",
   },
   {
     id: 5,
     title: "AI-based Movie recommendation website",
     des: "Full-Stack AI-based movie recommendation website.",
-    img: "/p4.svg",
+    img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/DarkShadowCoder/",
   },
   {
     id: 6,
     title: "Curriculum Vitae Analysis and recommendaion system",
     des: "Full-Stack AI-based CV analysis and recommendation app that facilitate decision making purposes. ",
-    img: "/p4.svg",
+    img: "/p3.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/DarkShadowCoder/",
   },
   {
     id: 7,
@@ -126,15 +126,15 @@ export const projects = [
     des: "Deep learning Model for sentiment analysis build with python that can be integrated in multiple platforms.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/DarkShadowCoder/",
   },
   {
     id: 8,
     title: "30 Days - 30 Apps Challenge",
     des: "A collection of 30 mobile Apps created every day during 30 days",
-    img: "/p4.svg",
+    img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/DarkShadowCoder/",
   },
 ];
 
@@ -233,7 +233,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/DarkShadowCoder"
+    link: "https://github.com/DarkShadowCoder/github.com/DarkShadowCoder"
   },
   {
     id: 2,
@@ -243,6 +243,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/yvan-landry-mbohou-mounpou-51aa1a2bb"
+    link: "https://github.com/DarkShadowCoder/www.linkedin.com/in/yvan-landry-mbohou-mounpou-51aa1a2bb"
   },
 ];
